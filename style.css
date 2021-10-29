@@ -11,13 +11,21 @@ html {
   }
   
   .keys {
-    display: flex;
-    flex: 1;
+     /* display: flex;   */
+     margin-top: 15%;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
   }
-  
+
+  .row{
+    display: flex; 
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    /* display: inline-block; */
+  }
+
   .key {
     border: .4rem solid black;
     border-radius: .5rem;

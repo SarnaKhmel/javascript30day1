@@ -17,7 +17,8 @@ function playSound (e){
         //console.log(e);
         if (e.propertyName !== 'transform') return; // skip it if it`s not a transform
         //console.log(e.propertyName);
-        this.classList.remove('playing')
+        this.classList.remove('playing');
+        setTimeout(function(){audio.pause();}, 5000)
 
     }
 
